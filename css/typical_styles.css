@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #edfaff;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+.logo .top_menu_style {
+    display: inline-block;
+}
+.top_menu_style li{
+    display: inline-block;
+}
+.top_menu_style a{
+    font-family: arial;
+    font-size: 30px;
+    color: #03126f;
+}
+.logo h1{
+    font-family: arial;
+}
