@@ -9,17 +9,30 @@ header{
     display: flex;
     justify-content: center;
 }
-.logo .top_menu_style {
+.logo, .top_menu_style {
+    margin: 25px;
     display: inline-block;
+    vertical-align: middle;
 }
 .top_menu_style li{
+    margin-right: 25px;
     display: inline-block;
+    vertical-align: middle;
 }
 .top_menu_style a{
+    vertical-align: middle;
     font-family: arial;
     font-size: 30px;
-    color: #03126f;
+    color: #4c2673;
+    text-decoration: none;
 }
 .logo h1{
     font-family: arial;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.top_menu_style a:hover 
+{
+    color: #051cb4;
+    
 }
