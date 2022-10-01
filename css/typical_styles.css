@@ -1,9 +1,15 @@
+@font-face {
+    font-family: bahnschrift;
+    src: url(/fonts/bahnschrift.ttf);
+}
+
+
 *{
     margin: 0;
     padding: 0;
 }
 body {
-    background: #edfaff;
+    background: #150e10;
 }
 header{
     display: flex;
@@ -21,17 +27,27 @@ header{
 }
 .top_menu_style a{
     vertical-align: middle;
-    font-family: arial;
+    font-family: bahnschrift;
     font-size: 30px;
-    color: #4c2673;
+    color: #4f5a64;
     text-decoration: none;
 }
+.top_menu_style a:hover{
+    color:#77888c;
+}
 .logo h1{
-    font-family: arial;
+    font-family:bahnschrift;
     font-size: 30px;
     vertical-align: middle;
 }
-.top_menu_style a:hover 
-{
-    color: #051cb4;
+.logo a{
+    color: #4f5a64;
+}
+.logo a:hover{
+    color:#77888c;
+}
+
+.centered{
+    display: flex;
+    justify-content: center;
 }
