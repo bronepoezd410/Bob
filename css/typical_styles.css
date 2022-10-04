@@ -80,3 +80,9 @@ header{
     margin-left: 10%;
     margin-right: 10%;
 }
+
+.lined {
+    margin: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
