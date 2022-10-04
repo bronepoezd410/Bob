@@ -86,3 +86,7 @@ header{
     display: inline-block;
     vertical-align: middle;
 }
+
+.hovered a:hover {
+    color:#8c2d8f;
+}
