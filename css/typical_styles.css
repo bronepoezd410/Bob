@@ -50,6 +50,12 @@ header{
     font-size: 30px;
     color:#8c2d8f;
     text-decoration: none;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+
+}
+.top_menu_style a:hover {
+    font-size: 40px;
 }
 
 .top_menu_style a:hover{
@@ -89,4 +95,6 @@ header{
 
 .hovered a:hover {
     color:#8c2d8f;
+    font-size: 35px;
+
 }
