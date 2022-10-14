@@ -96,5 +96,7 @@ header{
 .hovered a:hover {
     color:#8c2d8f;
     font-size: 35px;
+    text-decoration: none;
 
 }
+
